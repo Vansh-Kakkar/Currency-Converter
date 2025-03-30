@@ -31,7 +31,7 @@ function App() {
         e.preventDefault()
         convert()
       }}>
-     <div className='flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg shadow-md max-w-md mx-auto' style={{backgroundImage: `url("https://images.pexels.com/photos/6765373/pexels-photo-6765373.jpeg?auto=compress&cs=tinysrgb&w=600")`}}>
+     <div className='flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg shadow-md max-w-md mx-auto' style={{backgroundColor: 'black'}} >
       <div className='w-full'>
         <InputBox
          label="From"
